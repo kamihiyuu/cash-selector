@@ -1,11 +1,11 @@
-//‹àíŒvZƒvƒƒOƒ‰ƒ€
+//é‡‘ç¨®è¨ˆç®—ãƒ—ãƒ­ã‚°ãƒ©ãƒ 
 
 #include <stdio.h>
 
 int main(void)
 {
 	int money, tenthousand, fivethousand, thousand, fivehundred, hundred, fifty , ten, five, one;
-	printf("x•¥‹àŠz‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢i‰~jF");     scanf("%d", &money);
+	printf("æ”¯æ‰•é‡‘é¡ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ï¼ˆå††ï¼‰ï¼š");     scanf("%d", &money);
 
 	tenthousand = money / 10000;    money = money % 10000;
 	fivethousand = money / 5000;       money = money % 5000;
@@ -17,15 +17,15 @@ int main(void)
 	five = money / 5;             money = money % 5;
 	one = money / 1;
 
-	printf("ˆê–œ‰~DF%d\n", tenthousand);
-	printf("ŒÜç‰~DF%d\n", fivethousand);
-	printf("ç‰~DF%d\n", thousand);
-	printf("ŒÜ•S‰~‹ÊF%d\n", fivehundred);
-	printf("•S‰~‹ÊF%d\n", hundred);
-	printf("ŒÜ\‰~‹ÊF%d\n", fifty);
-	printf("\‰~‹ÊF%d\n", ten);
-	printf("ŒÜ‰~‹ÊF%d\n", five);
-	printf("ˆê‰~‹ÊF%d\n", one);
+	printf("ä¸€ä¸‡å††æœ­ï¼š%d\n", tenthousand);
+	printf("äº”åƒå††æœ­ï¼š%d\n", fivethousand);
+	printf("åƒå††æœ­ï¼š%d\n", thousand);
+	printf("äº”ç™¾å††ç‰ï¼š%d\n", fivehundred);
+	printf("ç™¾å††ç‰ï¼š%d\n", hundred);
+	printf("äº”åå††ç‰ï¼š%d\n", fifty);
+	printf("åå††ç‰ï¼š%d\n", ten);
+	printf("äº”å††ç‰ï¼š%d\n", five);
+	printf("ä¸€å††ç‰ï¼š%d\n", one);
 
 	return 0;
 		
